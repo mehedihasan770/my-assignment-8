@@ -34,7 +34,7 @@ const Navber = () => {
             <li><Link to={'/installation'}>Installation</Link></li>
           </ul>
         </div>
-        <Link to={'/'}><a className="text-xl font-bold text-[#9F62F2]"><img className="inline-block" src={logoimg} alt="" width={'40px'}/>HERO.IO</a></Link>
+        <Link to={'/'}><p className="text-xl font-bold text-[#9F62F2]"><img className="inline-block" src={logoimg} alt="" width={'40px'}/>HERO.IO</p></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-semibold text-[17px]">

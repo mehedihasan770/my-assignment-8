@@ -20,9 +20,9 @@ const Banner = () => {
                     <img src={heroimg} alt="" />
                 </div>
             </div>
-            <div className='rounded-xl md:rounded-none bg-gradient-to-br to-[#9F62F2] from-[#6530E4] flex flex-col space-y-10 justify-center items-center py-15 text-white'>
-                <h1 className='text-2xl md:text-5xl text-center font-bold'>Trusted by Millions, Built for You</h1>
-                <div className='flex flex-col md:flex-row space-y-7 md:space-x-50'>
+            <div className='rounded-xl lg:rounded-none bg-gradient-to-br to-[#9F62F2] from-[#6530E4] flex flex-col space-y-10 justify-center items-center py-15 text-white'>
+                <h1 className='text-2xl md:text-3xl lg:text-5xl text-center font-bold'>Trusted by Millions, Built for You</h1>
+                <div className='flex flex-col md:flex-row space-y-7 md:space-x-24 lg:space-x-50'>
                     <div className='text-center'>
                         <p className='text-gray-300'>Total Downloads</p>
                         <h1 className='text-[64px] font-bold'>29.6M</h1>
