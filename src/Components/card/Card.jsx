@@ -2,7 +2,6 @@ import downimg from '../../assets/icon-downloads.png'
 import ratingimg from '../../assets/icon-ratings.png'
 
 const Card = ({appData}) => {
-    console.log(appData)
 
     return (
         <div className="bg-white rounded-sm p-5 duration-300 hover:scale-105 hover:shadow-lg cursor-pointer space-y-5">
