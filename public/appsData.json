@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/200?random=1",
+    "title": "SnapShot Pro",
+    "companyName": "Pixel Labs",
+    "description": "SnapShot Pro is an advanced AI-powered photo editing app designed for professionals and beginners alike. It includes background remover, auto-enhance filters, and layer-based editing tools. Whether you are retouching portraits or designing posts, SnapShot gives full creative control. All edits sync across devices securely.",
+    "size": 45,
+    "reviews": 2300,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/200?random=2",
+    "title": "Taskify",
+    "companyName": "NovaSoft",
+    "description": "Taskify is a clean, fast, and reliable task management app designed for modern productivity. Organize tasks, set goals, and monitor your progress through interactive charts. The app integrates with calendars and supports team collaboration with live updates and notifications.",
+    "size": 32,
+    "reviews": 1500,
+    "ratingAvg": 4.2,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 580 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/200?random=3",
+    "title": "BeatWave",
+    "companyName": "SonicStream",
+    "description": "BeatWave lets you explore, stream, and create custom playlists with rich sound quality. The AI engine personalizes music suggestions based on your mood and activity. It supports offline playback and multi-device sync for seamless listening everywhere you go.",
+    "size": 60,
+    "reviews": 8700,
+    "ratingAvg": 4.8,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 6550 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/200?random=4",
+    "title": "FitZone",
+    "companyName": "HealthCore",
+    "description": "FitZone helps you maintain a healthy lifestyle with personalized fitness and nutrition tracking. Record your workouts, measure calories, and set achievable goals. Its AI trainer guides you through daily plans while community challenges keep you motivated.",
+    "size": 50,
+    "reviews": 4300,
+    "ratingAvg": 4.3,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1870 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/200?random=5",
+    "title": "NoteIt",
+    "companyName": "QuickApps",
+    "description": "NoteIt makes note-taking fast, secure, and beautifully simple. Write notes, attach files, and sync across all devices instantly. Its clean interface supports handwriting, speech-to-text, and tagging, making it perfect for students and professionals alike.",
+    "size": 25,
+    "reviews": 2900,
+    "ratingAvg": 4.1,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1180 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/200?random=6",
+    "title": "TravelMate",
+    "companyName": "JourneyHub",
+    "description": "TravelMate is your smart travel assistant for booking, planning, and exploring. Discover top-rated destinations, hotels, and restaurants. The offline mode and AI itinerary planner make it ideal for adventure lovers and frequent travelers.",
+    "size": 70,
+    "reviews": 5600,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3050 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/200?random=7",
+    "title": "LangPro",
+    "companyName": "EduMind",
+    "description": "LangPro makes language learning fun with daily challenges, quizzes, and real-time speech feedback. It supports over 30 languages and adapts lessons to your learning speed. Achievements and streak rewards keep you consistent and motivated.",
+    "size": 80,
+    "reviews": 6300,
+    "ratingAvg": 4.7,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 3770 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/200?random=8",
+    "title": "CryptoWatch",
+    "companyName": "BlockForge",
+    "description": "CryptoWatch gives you real-time market insights, charts, and portfolio analysis. Set alerts for price changes, track your coins, and stay ahead in the crypto world. Your portfolio data is encrypted and stored securely on your device.",
+    "size": 55,
+    "reviews": 2200,
+    "ratingAvg": 4.4,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 810 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/200?random=9",
+    "title": "CookBook Master",
+    "companyName": "Tasteify",
+    "description": "CookBook Master is a digital recipe book with over 5000 dishes from all around the world. Follow step-by-step videos, save custom recipes, and share them with friends. The smart grocery list and portion adjuster simplify meal prep.",
+    "size": 65,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 270000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1550 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/200?random=10",
+    "title": "GameBoosterX",
+    "companyName": "ProPlay",
+    "description": "GameBoosterX optimizes CPU, RAM, and GPU usage for smoother gameplay. The live FPS monitor and gaming mode help reduce lag. Boost battery life and block notifications while gaming to enjoy uninterrupted sessions.",
+    "size": 48,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 5900 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/200?random=11",
+    "title": "BookNest",
+    "companyName": "Readify",
+    "description": "BookNest gives you access to thousands of ebooks, audiobooks, and magazines in one place. Save your favorites, sync reading progress, and get AI-powered recommendations. Perfect for book lovers who enjoy reading anytime, anywhere.",
+    "size": 90,
+    "reviews": 6700,
+    "ratingAvg": 4.7,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 4250 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/200?random=12",
+    "title": "Budgetly",
+    "companyName": "FinGuard",
+    "description": "Budgetly helps you track expenses, plan budgets, and reach your financial goals. Get visual reports and spending insights to manage money wisely. Automatic bill reminders and savings targets help you stay financially fit.",
+    "size": 40,
+    "reviews": 2800,
+    "ratingAvg": 4.3,
+    "downloads": 230000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/200?random=13",
+    "title": "Weatherly",
+    "companyName": "SkySense",
+    "description": "Weatherly provides live forecasts, radar maps, and extreme weather alerts. Stay prepared with daily, hourly, and 7-day insights. The app uses AI to predict local weather more accurately than traditional methods.",
+    "size": 35,
+    "reviews": 2100,
+    "ratingAvg": 4.4,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/200?random=14",
+    "title": "MindEase",
+    "companyName": "CalmSpace",
+    "description": "MindEase helps you reduce stress and improve focus through guided meditation and breathing exercises. Track your mood daily and get personalized relaxation sessions. It also includes sleep sounds and mindfulness journaling tools.",
+    "size": 52,
+    "reviews": 3600,
+    "ratingAvg": 4.6,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1970 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/200?random=15",
+    "title": "ShopSmart",
+    "companyName": "BuyEase",
+    "description": "ShopSmart brings your favorite stores together for easy online shopping. Compare prices, get cashback offers, and track orders in real time. Smart recommendations and deals make your shopping experience smoother and cheaper.",
+    "size": 68,
+    "reviews": 7200,
+    "ratingAvg": 4.5,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 4850 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/200?random=16",
+    "title": "CodeArena",
+    "companyName": "DevVerse",
+    "description": "CodeArena is a coding playground where developers practice, compete, and collaborate. Solve challenges, join coding battles, and learn from detailed tutorials. Integrated compiler support and leaderboard ranking make it fun for all skill levels.",
+    "size": 95,
+    "reviews": 5100,
+    "ratingAvg": 4.8,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3520 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://picsum.photos/200?random=17",
+    "title": "PhotoVault",
+    "companyName": "SafePixel",
+    "description": "PhotoVault keeps your private photos and videos secure with fingerprint protection. Backup media to encrypted cloud storage and manage hidden albums easily. Designed for privacy-conscious users who value security and style.",
+    "size": 58,
+    "reviews": 4100,
+    "ratingAvg": 4.6,
+    "downloads": 380000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2270 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/200?random=18",
+    "title": "ClipIt",
+    "companyName": "MediaForge",
+    "description": "ClipIt lets you trim, merge, and edit videos easily on your phone. Add effects, transitions, and text overlays in seconds. With 4K export and direct sharing support, it's perfect for vloggers and content creators.",
+    "size": 85,
+    "reviews": 7700,
+    "ratingAvg": 4.7,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 5250 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://picsum.photos/200?random=19",
+    "title": "SleepTune",
+    "companyName": "DreamLab",
+    "description": "SleepTune improves your sleep quality with soothing sounds, bedtime stories, and smart alarms. Analyze sleep cycles with AI tracking and get insights to wake up refreshed. The app also syncs with wearables for accurate results.",
+    "size": 50,
+    "reviews": 2600,
+    "ratingAvg": 4.5,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1250 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/200?random=20",
+    "title": "ChatBuddy",
+    "companyName": "TalkFlow",
+    "description": "ChatBuddy is a modern AI chat app that understands your conversations and keeps them organized. Talk naturally, translate instantly, and get suggestions in real time. It supports voice, text, and group chat with smooth cloud sync.",
+    "size": 60,
+    "reviews": 9500,
+    "ratingAvg": 4.8,
+    "downloads": 920000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 6780 }
+    ]
+  }
+]
