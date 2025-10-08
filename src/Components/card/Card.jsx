@@ -9,7 +9,7 @@ const Card = ({appData}) => {
                 <img className="w-[300px] mx-auto" src={appData.image} alt="" />
             </div>
             <div>
-                <h2>{appData.title}</h2>
+                <h2 className='text-[18px] font-semibold text-gray-600'>{appData.title}</h2>
             </div>
             <div className="flex justify-between items-center font-semibold">
                 <h2 className="py-1 px-3 text-[#00D390] rounded-sm bg-[#F1F5E8]"><img className='inline-block mr-3' src={downimg} alt="" width={'16px'} />{appData.downloads}</h2>

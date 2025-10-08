@@ -13,8 +13,8 @@ const Banner = () => {
                     <p>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br className='hidden md:block'/>Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 </div>
                 <div className='flex justify-between space-x-5'>
-                    <button className='btn px-8 text-nowrap flex-1'><img src={playimg} alt="" />Google Play</button>
-                    <button className='btn px-8 text-nowrap flex-1'><img className='text-black' src={appleimg} alt="" />App Store</button>
+                    <a href="https://play.google.com/store/apps" target='blanck'><button className='btn px-8 text-nowrap flex-1'><img src={playimg} alt="" />Google Play</button></a>
+                    <a href="https://www.apple.com/app-store" target='blanck'><button className='btn px-8 text-nowrap flex-1'><img className='text-black' src={appleimg} alt="" />App Store</button></a>
                 </div>
                 <div>
                     <img src={heroimg} alt="" />
@@ -22,7 +22,7 @@ const Banner = () => {
             </div>
             <div className='rounded-xl lg:rounded-none bg-gradient-to-br to-[#9F62F2] from-[#6530E4] flex flex-col space-y-10 justify-center items-center py-15 text-white'>
                 <h1 className='text-2xl md:text-3xl lg:text-5xl text-center font-bold'>Trusted by Millions, Built for You</h1>
-                <div className='flex flex-col md:flex-row space-y-7 md:space-x-24 lg:space-x-50'>
+                <div className='flex flex-col md:flex-row space-y-7 md:space-x-24 lg:space-x-60'>
                     <div className='text-center'>
                         <p className='text-gray-300'>Total Downloads</p>
                         <h1 className='text-[64px] font-bold'>29.6M</h1>
