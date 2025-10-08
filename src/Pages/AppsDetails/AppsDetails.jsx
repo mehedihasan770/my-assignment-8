@@ -102,7 +102,7 @@ const AppsDetails = () => {
                             </div>
                         </div>
                         <div className='w-60 md:w-auto mx-auto mt-5 md:mt-0'>
-                            <button onClick={() => {handleSetData(appDatas), handleChackLoleData()}} className='btn w-65 p-6 border-0 bg-[#00D390] font-semibold text-white text-[17px] mt-3'>{appIntalled ? 'appIntalled' : `Installed Now (${size} MB)`}</button>
+                            <button onClick={() => {handleSetData(appDatas), handleChackLoleData()}} className='btn w-65 p-6 border-0 bg-[#00D390] font-semibold text-white text-[17px] mt-3'>{appIntalled ? 'Intalled' : `Installed Now (${size} MB)`}</button>
                         </div>
                     </div>
                 </div>

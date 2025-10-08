@@ -14,9 +14,10 @@ const addAppsDataToLocleStoreg = (id) => {
     const appsData = getLocleStorgData()
 
     if(appsData.find(app => app.id === id.id)){
-        return alert('This Alrady axset to localestoreg')
+        return
     }
     else{
+        alert ('Installed')
         appsData.push(id)
         const app = JSON.stringify(appsData)
         localStorage.setItem('appData',app)
@@ -27,6 +28,7 @@ const removeAppsDataForLocleStoreg = id => {
     const appsData = getLocleStorgData()
 
     const findAppData = appsData.filter(app => app.id !== id.id)
+    alert ('your app removet')
     localStorage.setItem('appData', JSON.stringify(findAppData))
 }
 
