@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import Card from "../../Components/card/Card";
 import { useAppsJsonData } from "../../Hoks/DataFetch";
 import NoAppsFound from "../../Components/NoAppsFound/NoAppsFound";
+import Loading from "../../Components/Loading/Loading";
 
 const Apps = () => {
-    const {appsData} = useAppsJsonData()
+    const {appsData, loading} = useAppsJsonData()
     const [changeAppData, setChangeAppData] = useState([])
     const [searchValue, setSearchValue] = useState('')
     const handleOnChange = e => {
@@ -19,6 +20,10 @@ const Apps = () => {
         }
     }, [appsData, searchValue])
 
+    if(loading){
+        return <Loading/>
+    }
+
 
     return (
         <div className="max-w-[1700px] mx-auto">
@@ -32,7 +37,7 @@ const Apps = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 py-9">
                 {
-                    changeAppData.length === 0 ? <NoAppsFound/> : changeAppData.map(appData => (<Card key={appData.id} appData={appData}/>))
+                    changeAppData.length === 0 ? <NoAppsFound/>  : changeAppData.map(appData => (<Card key={appData.id} appData={appData}/>))
                 }
             </div>
         </div>

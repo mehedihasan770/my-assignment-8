@@ -1,10 +1,15 @@
 import { Link } from "react-router";
 import { useAppsJsonData } from "../../Hoks/DataFetch";
 import Card from "../card/Card";
+import Loading from "../Loading/Loading";
 
 const Cards = () => {
-    const {appsData} = useAppsJsonData()
+    const {appsData, loading} = useAppsJsonData()
     const cliceAppsData = appsData.slice(0,8)
+
+    if(loading){
+        return <Loading/>
+    }
 
     return (
         <div className="max-w-[1700px] mx-auto">

@@ -6,14 +6,17 @@ import downimg from '../../assets/icon-downloads.png'
 import ratingimg from '../../assets/icon-ratings.png'
 import reviwimg from '../../assets/icon-review.png'
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { addAppsDataToLocleStoreg, getLocleStorgData } from '../../Hoks/LocleStoregData';
+import Loading from '../../Components/Loading/Loading';
 
 const AppsDetails = () => {
-    const {appsData} = useAppsJsonData()
+    const {appsData, loading} = useAppsJsonData()
     const [appDatas, setAppDatas] = useState([])
-    const {image, title, companyName, size, reviews, ratingAvg, downloads, ratings, description} = appDatas
-    const {id} = useParams()
+    const [appIntalled, setAppIntalled] = useState(false)
+    const {image, title, companyName, size, id, reviews, ratingAvg, downloads, ratings, description} = appDatas
+    const {ids} = useParams()
 
-    const idNum = Number(id)
+    const idNum = Number(ids)
 
     useEffect(() => {
         const singleAppData = appsData.find(singData => singData.id === idNum)
@@ -21,12 +24,35 @@ const AppsDetails = () => {
             setAppDatas(singleAppData)
         }
     },[appsData, idNum])
+
+    useEffect(() => {
+        const localeAppData = getLocleStorgData()
+        const setLocaleAppData = localeAppData.some(app => app.id === id)
+        setAppIntalled(setLocaleAppData)
+    },[id,])
+
+    if(loading){
+       return <Loading/>
+    }
+
+    const handleChackLoleData = () => {
+        setAppIntalled(true)
+    }
     
+    if (appsData.length === 0) {
+        return 
+    }
+
     const appsId = appsData.find(data => data.id === idNum)
     if (!appsId) {
         return <AppsNotFound />;
     }
 
+    const handleSetData = (data) => {
+        addAppsDataToLocleStoreg(data)
+    } 
+
+    
 
     return (
         <div className='max-w-[1700px] mx-auto py-20'>
@@ -38,7 +64,7 @@ const AppsDetails = () => {
                     <div className='w-full'>
                         <div className='border-b-2 border-gray-300'>
                             <h1 className='font-bold text-[32px] text-center md:text-left'>{title}</h1>
-                            <p className='text-gray-500 text-[20px] pb-5 text-center md:text-left'>Developed by {companyName}</p>
+                            <p className='text-gray-500 text-[20px] pb-5 text-center md:text-left'>Developed by <span className='font-bold text-[#9F62F2]'>{companyName}</span></p>
                         </div>
                         <div className='pt-5 flex flex-wrap md:flex-row'>
                             <div className='max-w-fit mx-auto lg:mx-10 md:-ml-0 lg:-ml-0'>
@@ -76,7 +102,7 @@ const AppsDetails = () => {
                             </div>
                         </div>
                         <div className='w-60 md:w-auto mx-auto mt-5 md:mt-0'>
-                            <button className='btn w-60 p-6 border-0 bg-[#00D390] font-semibold text-white text-[17px] mt-3'>Install Now ({size} MB)</button>
+                            <button onClick={() => {handleSetData(appDatas), handleChackLoleData()}} className='btn w-65 p-6 border-0 bg-[#00D390] font-semibold text-white text-[17px] mt-3'>{appIntalled ? 'appIntalled' : `Installed Now (${size} MB)`}</button>
                         </div>
                     </div>
                 </div>
