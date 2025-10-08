@@ -6,7 +6,7 @@
     "id": 1,
     "description": "SnapShot Pro is an advanced AI-powered photo editing app designed for professionals and beginners alike. It offers one-tap filters, background removal, and smart enhancement tools. You can create stunning portraits, social-media posts, and artistic effects instantly. Offline editing and cloud backup support make it perfect for content creators.",
     "size": 45,
-    "reviews": 12000,
+    "reviews": "12K",
     "ratingAvg": 4.6,
     "downloads": "850K",
     "ratings": [
@@ -24,7 +24,7 @@
     "id": 2,
     "description": "FitLife Tracker helps you monitor your fitness goals through step counts, heart rate analysis, and personalized workout plans. The app connects with your smart devices and provides real-time insights for better health tracking and motivation.",
     "size": 52,
-    "reviews": 8700,
+    "reviews": "8.7K",
     "ratingAvg": 4.8,
     "downloads": "640K",
     "ratings": [
@@ -42,7 +42,7 @@
     "id": 3,
     "description": "TuneBox is your ultimate music companion with playlists, equalizers, and AI-powered song recommendations. Stream music, download offline tracks, and enjoy immersive sound with high-quality audio support.",
     "size": 38,
-    "reviews": 15200,
+    "reviews": "15.2K",
     "ratingAvg": 4.7,
     "downloads": "910K",
     "ratings": [
@@ -60,7 +60,7 @@
     "id": 4,
     "description": "TaskFlow is a productivity app that helps you manage your daily tasks, reminders, and long-term projects seamlessly. With drag-and-drop interface and progress tracking, you’ll never miss a deadline again.",
     "size": 29,
-    "reviews": 6400,
+    "reviews": "6.4K",
     "ratingAvg": 4.5,
     "downloads": "300K",
     "ratings": [
@@ -78,7 +78,7 @@
     "id": 5,
     "description": "ShopEase makes online shopping effortless with fast search, category filters, and smart deals. Add products to your cart, track your orders, and get notifications for discounts and offers instantly.",
     "size": 70,
-    "reviews": 19500,
+    "reviews": "19.5K",
     "ratingAvg": 4.9,
     "downloads": "1.6M",
     "ratings": [
@@ -96,7 +96,7 @@
     "id": 6,
     "description": "MindSpace offers guided meditations, relaxation exercises, and breathing techniques to help you reduce stress and improve focus. Track your mood daily and get personalized calmness insights.",
     "size": 44,
-    "reviews": 10500,
+    "reviews": "10.5K",
     "ratingAvg": 4.7,
     "downloads": "750K",
     "ratings": [
@@ -114,7 +114,7 @@
     "id": 7,
     "description": "TravelGo lets you explore destinations, find hotels, and book flights with ease. It provides smart travel suggestions, weather updates, and itinerary management — making your trip stress-free and enjoyable.",
     "size": 61,
-    "reviews": 8900,
+    "reviews": "8.9K",
     "ratingAvg": 4.6,
     "downloads": "540K",
     "ratings": [
@@ -132,7 +132,7 @@
     "id": 8,
     "description": "NoteMate is a minimal yet powerful note-taking app for your daily ideas. Organize your notes with tags, sync across devices, and secure them with fingerprint or password lock.",
     "size": 28,
-    "reviews": 7200,
+    "reviews": "7.2K",
     "ratingAvg": 4.5,
     "downloads": "480K",
     "ratings": [
@@ -150,7 +150,7 @@
     "id": 9,
     "description": "EduPlus provides free online courses, quizzes, and video lectures from top educators. It’s the perfect companion for students and professionals aiming to upskill efficiently.",
     "size": 65,
-    "reviews": 11200,
+    "reviews": "11.2K",
     "ratingAvg": 4.8,
     "downloads": "990K",
     "ratings": [
@@ -168,7 +168,7 @@
     "id": 10,
     "description": "Newsify brings you breaking news, trending stories, and curated articles from verified sources. Customize your feed to follow your favorite topics, and enjoy real-time push updates.",
     "size": 48,
-    "reviews": 9600,
+    "reviews": "9.6K",
     "ratingAvg": 4.4,
     "downloads": "780K",
     "ratings": [
@@ -186,7 +186,7 @@
     "id": 11,
     "description": "CookBook Master gives you access to thousands of recipes from around the world. Step-by-step guidance, calorie info, and smart grocery lists make home cooking easier and fun.",
     "size": 57,
-    "reviews": 6700,
+    "reviews": "6.7K",
     "ratingAvg": 4.7,
     "downloads": "530K",
     "ratings": [
@@ -204,7 +204,7 @@
     "id": 12,
     "description": "GameZone is your one-stop app for gaming updates, live scores, and cloud saves. Discover new releases, join communities, and compare leaderboards with friends.",
     "size": 72,
-    "reviews": 15600,
+    "reviews": "15.6K",
     "ratingAvg": 4.9,
     "downloads": "1.8M",
     "ratings": [
@@ -222,7 +222,7 @@
     "id": 13,
     "description": "Weatherly delivers accurate weather updates, radar maps, and severe weather alerts. Personalize widgets and get 7-day forecasts for any location in the world.",
     "size": 46,
-    "reviews": 8300,
+    "reviews": "8.3K",
     "ratingAvg": 4.5,
     "downloads": "670K",
     "ratings": [
@@ -240,7 +240,7 @@
     "id": 14,
     "description": "FinanceHub lets you manage expenses, track savings, and visualize your monthly budget. Get AI-generated insights to save money and improve your financial health.",
     "size": 50,
-    "reviews": 9100,
+    "reviews": "9.1K",
     "ratingAvg": 4.6,
     "downloads": "620K",
     "ratings": [
@@ -258,7 +258,7 @@
     "id": 15,
     "description": "BookNest offers eBooks, audiobooks, and personalized reading recommendations. Create your own library, track progress, and sync across all your devices.",
     "size": 59,
-    "reviews": 8400,
+    "reviews": "8.4K",
     "ratingAvg": 4.7,
     "downloads": "560K",
     "ratings": [
@@ -276,7 +276,7 @@
     "id": 16,
     "description": "DriveSync connects to your car’s onboard computer to track mileage, fuel efficiency, and driving behavior. Stay informed with real-time analytics and trip reports.",
     "size": 54,
-    "reviews": 7800,
+    "reviews": "7.8K",
     "ratingAvg": 4.6,
     "downloads": "490K",
     "ratings": [
@@ -294,7 +294,7 @@
     "id": 17,
     "description": "LanguageLink helps you learn new languages through interactive lessons, flashcards, and real-time pronunciation feedback. Supports over 50 languages with offline mode.",
     "size": 66,
-    "reviews": 9700,
+    "reviews": "9.7K",
     "ratingAvg": 4.8,
     "downloads": "710K",
     "ratings": [
@@ -312,7 +312,7 @@
     "id": 18,
     "description": "Artify allows artists and designers to create, share, and showcase their digital artwork. It includes drawing tools, layers, and cloud sync for all your creative projects.",
     "size": 62,
-    "reviews": 8800,
+    "reviews": "8.8K",
     "ratingAvg": 4.7,
     "downloads": "660K",
     "ratings": [
@@ -330,7 +330,7 @@
     "id": 19,
     "description": "HealthMate helps monitor your medical data, track prescriptions, and book online consultations. Stay informed about your health and get daily wellness reminders.",
     "size": 49,
-    "reviews": 9200,
+    "reviews": "9.2K",
     "ratingAvg": 4.8,
     "downloads": "720K",
     "ratings": [
@@ -348,7 +348,7 @@
     "id": 20,
     "description": "ChatBuddy is a modern AI chat app that understands your conversations and keeps them organized. Talk naturally, translate instantly, and get suggestions in real time. It supports voice, text, and group chat with smooth cloud sync.",
     "size": 60,
-    "reviews": 9500,
+    "reviews": "9.5K",
     "ratingAvg": 4.8,
     "downloads": "920K",
     "ratings": [
