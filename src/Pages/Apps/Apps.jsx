@@ -10,11 +10,13 @@ const Apps = () => {
     const [changeAppData, setChangeAppData] = useState([])
     const[load, setLoad] = useState(false)
     const [searchValue, setSearchValue] = useState('')
+
     const handleOnChange = e => {
         setSearchValue(e.target.value)
+        const trem = e.target.value.trim().toLowerCase()
         setLoad(true)
         setTimeout(() => {
-            const eChangeValue = appsData.filter(data => data.title.toLowerCase().includes(e.target.value.toLowerCase()))
+            const eChangeValue = appsData.filter(data => data.title.toLowerCase().includes(trem))
             setChangeAppData(eChangeValue)
             setLoad(false)
         }, 500)
