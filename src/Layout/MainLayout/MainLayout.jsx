@@ -3,6 +3,7 @@ import Navber from "../../Components/Navber/Navber";
 import Footer from "../../Components/Footer/Footer";
 import { useAppsJsonData } from "../../Hoks/DataFetch";
 import Loading from "../../Components/Loading/Loading";
+import { ToastContainer } from "react-toastify";
 
 const MainLayout = () => {
     const {loading} = useAppsJsonData()
@@ -17,6 +18,7 @@ const MainLayout = () => {
                     </div>
                 }
             <Footer/>
+            <ToastContainer/>
         </div>
     );
 };

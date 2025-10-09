@@ -36,12 +36,12 @@ const Installation = () => {
         <div>
             <div className="max-w-[1700px] mx-auto">
                 <div className="py-20">
-                    <h1 className="text-[48px] font-bold text-center">Your Installed Apps</h1>
+                    <h1 className="text-4xl md:text-[48px] font-bold text-center">Your Installed Apps</h1>
                     <p className="text-center text-[20px] text-gray-500">Explore All Trending Apps on the Market developed by us</p>
                 </div>
                 <div className="mb-7 flex flex-col-reverse md:flex-row md:justify-between">
                     <h1 className="font-bold mt-5 md:mt-0 text-center md:text-left text-[24px]">({installedApps.length}) Apps Found</h1>
-                    <select name="Sotr by size" id="" value={sort} onChange={handleOnChange} className="w-50 rounded-lg bg-gray-300 px-2 font-semibold">
+                    <select name="Sotr by size" id="" value={sort} onChange={handleOnChange} className="w-50 h-10 md:h-auto mx-auto md:mx-0 rounded-lg bg-gray-300 px-2 font-semibold">
                         <option value="Sort By Size">Sort By Size</option>
                         <option  value="High to Low">High to Low</option>
                         <option value="Low to High">Low to High</option>

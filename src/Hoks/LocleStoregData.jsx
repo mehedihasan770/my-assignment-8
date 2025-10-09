@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const getLocleStorgData = () => {
     const getLocleData = localStorage.getItem('appData');
 
@@ -17,7 +19,7 @@ const addAppsDataToLocleStoreg = (id) => {
         return
     }
     else{
-        alert ('Installed')
+        toast ('✅ App Installed Done')
         appsData.push(id)
         const app = JSON.stringify(appsData)
         localStorage.setItem('appData',app)
@@ -28,7 +30,7 @@ const removeAppsDataForLocleStoreg = id => {
     const appsData = getLocleStorgData()
 
     const findAppData = appsData.filter(app => app.id !== id.id)
-    alert ('your app removet')
+    toast ('❌Your App Uninstall Done')
     localStorage.setItem('appData', JSON.stringify(findAppData))
 }
 
