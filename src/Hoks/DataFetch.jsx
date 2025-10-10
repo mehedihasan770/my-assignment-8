@@ -10,7 +10,12 @@ export const useAppsJsonData = () => {
         axios.get('/appsData.json')
         .then(data => setAppsData(data.data))
         .catch(err => setError(err))
-        .finally(() => setLoading(false))
+        .finally(() => 
+            setTimeout(() => {
+                setLoading(false)
+            },500)
+        )
+        
     }, [])
     return {appsData, error, loading}
 }
