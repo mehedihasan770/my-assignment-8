@@ -56,6 +56,6 @@ HERO.IO is a web platform similar to the Play Store, designed for users to disco
 
 <h2>Live & Relevant Links</h2>
 <ul>
-  <li>🌐 <a href="https://fastidious-mermaid-9683b9.netlify.app/" target="_blank">https://fastidious-mermaid-9683b9.netlify.app/</a></li>
-  <li>💻 <a href="https://github.com/mehedihasan770/my-assignment-8.git" target="_blank">https://github.com/mehedihasan770/my-assignment-8.git</a></li>
+  <li>🌐Live Link <a href="https://fastidious-mermaid-9683b9.netlify.app/" target="_blank">https://fastidious-mermaid-9683b9.netlify.app/</a></li>
+  <li>💻Github Repo Link <a href="https://github.com/mehedihasan770/my-assignment-8.git" target="_blank">https://github.com/mehedihasan770/my-assignment-8.git</a></li>
 </ul>
